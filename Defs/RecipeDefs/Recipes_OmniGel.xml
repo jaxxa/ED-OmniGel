@@ -205,11 +205,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>80</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<products>
-			<Steel>40</Steel>
+			<Steel>20</Steel>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -236,11 +236,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<BlocksSandstone>40</BlocksSandstone>
+			<BlocksSandstone>15</BlocksSandstone>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -267,11 +267,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<BlocksGranite>35</BlocksGranite>
+			<BlocksGranite>15</BlocksGranite>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -298,11 +298,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<BlocksLimestone>40</BlocksLimestone>
+			<BlocksLimestone>15</BlocksLimestone>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -329,11 +329,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<BlocksSlate>40</BlocksSlate>
+			<BlocksSlate>15</BlocksSlate>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -360,11 +360,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<BlocksMarble>35</BlocksMarble>
+			<BlocksMarble>15</BlocksMarble>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -395,38 +395,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Silver>60</Silver>
-		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
-
-
-	<RecipeDef>
-		<defName>Replicate_MK3_UraniumFromOmniGel</defName>
-		<label>Replicate Uranium from Omni-Gel</label>
-		<description>Replicates Uranium from Omni-Gel.</description>
-		<jobString>Creating Uranium from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>OmniGel</li>
-					</thingDefs>
-				</filter>
-				<count>75</count>
-			</li>
-		</ingredients>
-		<products>
-			<Uranium>15</Uranium>
+			<Silver>30</Silver>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -437,7 +406,7 @@
 	</RecipeDef>
 
 	<RecipeDef>
-		<defName>Replicate_MK3_GoldFromOmniGel</defName>
+		<defName>Replicate_MK2_GoldFromOmniGel</defName>
 		<label>Replicate Gold from Omni-Gel</label>
 		<description>Replicates Gold from Omni-Gel.</description>
 		<jobString>Creating Gold from Omni-Gel.</jobString>
@@ -452,11 +421,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>30</count>
 			</li>
 		</ingredients>
 		<products>
-			<Gold>5</Gold>
+			<Gold>1</Gold>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -482,11 +451,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<Plasteel>2</Plasteel>
+			<Plasteel>1</Plasteel>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -495,6 +464,37 @@
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Replicate_MK3_UraniumFromOmniGel</defName>
+		<label>Replicate Uranium from Omni-Gel</label>
+		<description>Replicates Uranium from Omni-Gel.</description>
+		<jobString>Creating Uranium from Omni-Gel.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<Uranium>1</Uranium>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>OmniGel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
 
 
 	<RecipeDef>
@@ -513,11 +513,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<ArtilleryShell>8</ArtilleryShell>
+			<ArtilleryShell>2</ArtilleryShell>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -580,11 +580,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<products>
-			<Medicine>3</Medicine>
+			<Medicine>1</Medicine>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -596,9 +596,9 @@
 
 	<RecipeDef>
 		<defName>Replicate_MK3_GlitterMedicineFromOmniGel</defName>
-		<label>Replicate Medicine from Omni-Gel</label>
-		<description>Replicates Glitterworld Medicine from Omni-Gel.</description>
-		<jobString>Creating Glitterworld Medicine from Omni-Gel.</jobString>
+		<label>Upgrade to Glitter Medicine with Omni-Gel</label>
+		<description>Upgrades Medicine to Glitterworld Medicine with Omni-Gel.</description>
+		<jobString>Creating Glitterworld Medicine from Omni-Gel and Medicine.</jobString>
 		<workAmount>500</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -610,7 +610,15 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Medicine</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<products>
@@ -618,6 +626,7 @@
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
+				<li>Medicine</li>
 				<li>OmniGel</li>
 			</thingDefs>
 		</fixedIngredientFilter>

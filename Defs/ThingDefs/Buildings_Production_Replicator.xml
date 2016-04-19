@@ -29,8 +29,11 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,1)</drawSize>
 		</graphicData>
-		<researchPrerequisites><li>Research_MK1_Replicator</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>Research_MK1_Replicator</li>
+		</researchPrerequisites>
 		<costList>
+			<Components>2</Components>
 			<Steel>100</Steel>
 			<Silver>50</Silver>
 		</costList>
@@ -82,8 +85,11 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,1)</drawSize>
 		</graphicData>
-		<researchPrerequisites><li>Research_MK2_Replicator</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>Research_MK2_Replicator</li>
+		</researchPrerequisites>
 		<costList>
+			<Components>4</Components>
 			<Steel>200</Steel>
 			<Silver>100</Silver>
 		</costList>
@@ -103,6 +109,7 @@
 			<li>Replicate_MK2_BlocksLimestoneFromOmniGel</li>
 			<li>Replicate_MK2_BlocksSlateFromOmniGel</li>
 			<li>Replicate_MK2_BlocksMarbleromOmniGel</li>
+			<li>Replicate_MK2_GoldFromOmniGel</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -135,8 +142,11 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,1)</drawSize>
 		</graphicData>
-		<researchPrerequisites><li>Research_MK3_Replicator</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>Research_MK3_Replicator</li>
+		</researchPrerequisites>
 		<costList>
+			<Components>4</Components>
 			<Steel>200</Steel>
 			<Silver>400</Silver>
 		</costList>
@@ -153,7 +163,6 @@
 			<li>Replicate_MK3_ShellsFromOmniGel</li>
 			<li>Replicate_MK3_MedicineFromOmniGel</li>
 			<li>Replicate_MK3_GlitterMedicineFromOmniGel</li>
-			<li>Replicate_MK3_GoldFromOmniGel</li>
 			<li>Replicate_MK3_PlasteelFromOmniGel</li>
 		</recipes>
 		<inspectorTabs>
