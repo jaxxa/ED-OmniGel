@@ -34,9 +34,6 @@
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
 		<stackLimit>500</stackLimit>
-		<statBases>
-			<MarketValue>1</MarketValue>
-		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
