@@ -34,3 +34,11 @@ MK3:
 60 OmniGel -> 2 Shells
 40 OmniGel -> 1 Medicine
 200 OmniGel -> 1 GlitterworldMedicine
+
+#Change Log
+
+01.00.00
+*Initial Release
+
+01.00.01
+* Fix for matter replicators producing energy
