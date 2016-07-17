@@ -44,6 +44,7 @@
 		</graphicData>
 		<selectable>true</selectable>
 		<pathCost>10</pathCost>
+		<Tradeability>Never</Tradeability>
 		<plant>
 			<dieIfLeafless>true</dieIfLeafless>
 			<shootsSeeds>false</shootsSeeds>

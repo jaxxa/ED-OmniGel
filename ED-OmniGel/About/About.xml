@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-OmniGel</name>
+	<targetVersion>0.14.1234</targetVersion>
 	<author>Jaxxa</author>
-	<url>https://ludeon.com/forums/index.php?topic=15606.0</url>
+	<url>https://ludeon.com/forums/index.php?topic=18995.0</url>
 	<description>
 Adds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal</description>
 </ModMetaData>

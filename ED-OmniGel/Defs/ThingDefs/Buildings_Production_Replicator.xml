@@ -33,11 +33,11 @@
 			<li>Research_MK1_Replicator</li>
 		</researchPrerequisites>
 		<costList>
-			<Components>2</Components>
+			<Component>2</Component>
 			<Steel>100</Steel>
 			<Silver>50</Silver>
 		</costList>
-		<AltitudeLayer>Waist</AltitudeLayer>
+		<AltitudeLayer>Building</AltitudeLayer>
 		<Size>(3,1)</Size>
 		<DesignationCategory>Production</DesignationCategory>
 		<Passability>Impassable</Passability>
@@ -89,11 +89,11 @@
 			<li>Research_MK2_Replicator</li>
 		</researchPrerequisites>
 		<costList>
-			<Components>4</Components>
+			<Component>4</Component>
 			<Steel>200</Steel>
 			<Silver>100</Silver>
 		</costList>
-		<AltitudeLayer>Waist</AltitudeLayer>
+		<AltitudeLayer>Building</AltitudeLayer>
 		<Size>(3,1)</Size>
 		<DesignationCategory>Production</DesignationCategory>
 		<Passability>Impassable</Passability>
@@ -146,11 +146,11 @@
 			<li>Research_MK3_Replicator</li>
 		</researchPrerequisites>
 		<costList>
-			<Components>4</Components>
+			<Component>4</Component>
 			<Steel>200</Steel>
 			<Silver>400</Silver>
 		</costList>
-		<AltitudeLayer>Waist</AltitudeLayer>
+		<AltitudeLayer>Building</AltitudeLayer>
 		<Size>(3,1)</Size>
 		<DesignationCategory>Production</DesignationCategory>
 		<Passability>Impassable</Passability>
