@@ -497,6 +497,7 @@
 
 
 
+	<!--
 	<RecipeDef>
 		<defName>Replicate_MK3_ShellsFromOmniGel</defName>
 		<label>Replicate Shells from Omni-Gel</label>
@@ -526,7 +527,8 @@
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-
+	-->
+	
 	<!--
   <RecipeDef>
     <defName>Replicate_MK3_MissilesFromOmniGel</defName>
