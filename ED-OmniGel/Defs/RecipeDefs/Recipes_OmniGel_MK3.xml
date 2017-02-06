@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
+	<!-- Replicate Plasteel -->
 	<RecipeDef>
 		<defName>Replicate_MK3_PlasteelFromOmniGel</defName>
 		<label>Replicate Plasteel from Omni-Gel</label>
