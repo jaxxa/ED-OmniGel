@@ -22,7 +22,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Plasteel>1</Plasteel>
+			<Plasteel>3</Plasteel>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -49,11 +49,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<products>
-			<Uranium>1</Uranium>
+			<Uranium>10</Uranium>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -64,13 +64,11 @@
 	</RecipeDef>
 
 
-
-	<!--
 	<RecipeDef>
-		<defName>Replicate_MK3_ShellsFromOmniGel</defName>
-		<label>Replicate Shells from Omni-Gel</label>
-		<description>Replicates Shells from Omni-Gel.</description>
-		<jobString>Creating Shells from Omni-Gel.</jobString>
+		<defName>Replicate_MK3_JadeFromOmniGel</defName>
+		<label>Replicate Jade from Omni-Gel</label>
+		<description>Replicates Jade from Omni-Gel.</description>
+		<jobString>Creating Jade from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -82,11 +80,11 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>60</count>
+				<count>50</count>
 			</li>
 		</ingredients>
 		<products>
-			<ArtilleryShell>2</ArtilleryShell>
+			<Jade>10</Jade>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -95,7 +93,7 @@
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-	-->
+
 	
 	<!-- Replicate Medicine -->
 	<RecipeDef>
@@ -118,7 +116,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Medicine>1</Medicine>
+			<Medicine>2</Medicine>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>

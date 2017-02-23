@@ -4,6 +4,31 @@
 	<targetVersion>0.16.1393</targetVersion>
 	<author>Jaxxa</author>
 	<url>https://ludeon.com/forums/index.php?topic=18995.0</url>
-	<description>
-Adds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal</description>
+	<description>Version: 03.00.00
+	
+Adds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal
+
+Recipes:
+
+The following are the resources that are available from the various levels of the replicator.
+
+MK1:
+10 OmniGel -> 1 ChunkSlag
+10 OmniGel -> 1 ChunkRock 
+
+MK2:
+40 OmniGel -> 20 Steel
+40 OmniGel -> 30 Silver
+30 OmniGel -> 3 Gold
+
+MK3:
+60 OmniGel -> 4 plasteel
+60 OmniGel -> 10 Uranium
+50 OmniGel -> 10 Jade
+
+40 OmniGel -> 2 Medicine
+40 OmniGel + 4 Medicine -> 1 GlitterworldMedicine
+
+
+</description>
 </ModMetaData>

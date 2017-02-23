@@ -154,11 +154,11 @@
 		<surfaceType>Item</surfaceType>
 		<constructEffect>ConstructMetal</constructEffect>
 		<recipes>
+			<li>Replicate_MK3_PlasteelFromOmniGel</li>
 			<li>Replicate_MK3_UraniumFromOmniGel</li>
-			<!--<li>Replicate_MK3_ShellsFromOmniGel</li>-->
+			<li>Replicate_MK3_JadeFromOmniGel</li>
 			<li>Replicate_MK3_MedicineFromOmniGel</li>
 			<li>Replicate_MK3_GlitterMedicineFromOmniGel</li>
-			<li>Replicate_MK3_PlasteelFromOmniGel</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

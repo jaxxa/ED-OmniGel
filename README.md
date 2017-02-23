@@ -21,19 +21,16 @@ MK1:
 
 MK2:
 40 OmniGel -> 20 Steel
-60 OmniGel -> 15 StoneBlocks
-75 OmniGel -> 30 Silver
-30 OmniGel -> 1 Gold
+40 OmniGel -> 30 Silver
+30 OmniGel -> 3 Gold
 
 MK3:
+60 OmniGel -> 4 plasteel
+60 OmniGel -> 10 Uranium
+50 OmniGel -> 10 Jade
 
-60 OmniGel -> 1 plasteel
-50 OmniGel -> 5 Uranium
-50 OmniGel -> 5 Jade
-
-60 OmniGel -> 2 Shells
-40 OmniGel -> 1 Medicine
-200 OmniGel -> 1 GlitterworldMedicine
+40 OmniGel -> 2 Medicine
+40 OmniGel + 4 Medicine -> 1 GlitterworldMedicine
 
 #Change Log
 

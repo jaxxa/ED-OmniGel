@@ -50,7 +50,7 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<products>
@@ -86,7 +86,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Gold>1</Gold>
+			<Gold>3</Gold>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>

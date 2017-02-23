@@ -2,7 +2,7 @@
 <WorkGivers>
 
   <WorkGiverDef>
-    <defName>DoBillsOmniGelMK1</defName>
+    <defName>DoBillsOmniGel</defName>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Crafting</workType>
     <priorityInType>104</priorityInType>
