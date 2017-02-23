@@ -32,6 +32,7 @@
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
+	<!-- Replicate Uranium -->
 	<RecipeDef>
 		<defName>Replicate_MK3_UraniumFromOmniGel</defName>
 		<label>Replicate Uranium from Omni-Gel</label>
@@ -96,43 +97,7 @@
 	</RecipeDef>
 	-->
 	
-	<!--
-  <RecipeDef>
-    <defName>Replicate_MK3_MissilesFromOmniGel</defName>
-    <label>Replicate Missiles from Omni-Gel</label>
-    <description>Replicates Missiles from Omni-Gel.</description>
-    <jobString>Creating Missiles from Omni-Gel.</jobString>
-    <workAmount>500</workAmount>
-    <workSpeedStat>GelSpeed</workSpeedStat>
-    <efficiencyStat>GelEfficiency</efficiencyStat>
-    <workEffect>UseMetalRefinery</workEffect>
-    <sustainerSoundDef>Recipe_ExtractMetalFromSlag</sustainerSoundDef>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>OmniGel</li>
-          </thingDefs>
-        </filter>
-        <count>75</count>
-      </li>
-    </ingredients>
-    <products>
-        <Missiles>10</Missiles>
-    </products>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>OmniGel</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <skillGains>
-      <li>
-        <skill>Crafting</skill>
-        <xp>120</xp>
-      </li>
-    </skillGains>
-  </RecipeDef>
-  -->
+	<!-- Replicate Medicine -->
 	<RecipeDef>
 		<defName>Replicate_MK3_MedicineFromOmniGel</defName>
 		<label>Replicate Medicine from Omni-Gel</label>
@@ -162,7 +127,8 @@
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-
+	
+	<!-- Replicate Glitter Medicine -->
 	<RecipeDef>
 		<defName>Replicate_MK3_GlitterMedicineFromOmniGel</defName>
 		<label>Upgrade to Glitter Medicine with Omni-Gel</label>

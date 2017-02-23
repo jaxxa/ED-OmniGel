@@ -104,11 +104,6 @@
 		<recipes>
 			<li>Replicate_MK2_SteelFromOmniGel</li>
 			<li>Replicate_MK2_SilverFromOmniGel</li>
-			<li>Replicate_MK2_BlocksSandstoneFromOmniGel</li>
-			<li>Replicate_MK2_BlocksGraniteFromOmniGel</li>
-			<li>Replicate_MK2_BlocksLimestoneFromOmniGel</li>
-			<li>Replicate_MK2_BlocksSlateFromOmniGel</li>
-			<li>Replicate_MK2_BlocksMarbleromOmniGel</li>
 			<li>Replicate_MK2_GoldFromOmniGel</li>
 		</recipes>
 		<inspectorTabs>
