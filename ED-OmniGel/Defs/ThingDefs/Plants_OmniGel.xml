@@ -24,7 +24,6 @@
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>1.0</fertilitySensitivity>
-			<harvestDestroys>true</harvestDestroys>
 			<soundHarvesting>Harvest_Standard</soundHarvesting>
 			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
 			<harvestWork>190</harvestWork>
@@ -58,7 +57,6 @@
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>OmniGel</harvestedThingDef>
-			<harvestDestroys>true</harvestDestroys>
 			<harvestYield>2</harvestYield>
 			<sowTags>
 				<li>Ground</li>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-OmniGel</name>
-	<targetVersion>0.16.1393</targetVersion>
+	<targetVersion>0.17.0</targetVersion>
 	<author>Jaxxa</author>
 	<url>https://ludeon.com/forums/index.php?topic=18995.0</url>
-	<description>Version: 03.00.00
-	
+	<description>Version: 0.17.0
+
 Adds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal
 
 Recipes:
@@ -30,5 +30,5 @@ MK3:
 40 OmniGel + 4 Medicine -> 1 GlitterworldMedicine
 
 
-</description>
+	</description>
 </ModMetaData>
