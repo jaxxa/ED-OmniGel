@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Plants>
+<Defs>
 
 	<ThingDef Name="PlantBase" Abstract="True">
 		<category>Plant</category>
@@ -48,7 +48,7 @@
 		</graphicData>
 		<selectable>true</selectable>
 		<pathCost>10</pathCost>
-		<Tradeability>Never</Tradeability>
+		<tradeability>Never</tradeability>
 		<ingestible>
 			<foodType>Plant</foodType>
 			<preferability>NeverForNutrition</preferability>
@@ -71,4 +71,4 @@
 		</plant>
 	</ThingDef>
 
-</Plants>
+</Defs>
