@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="BuildingBase" Abstract="True">
 		<category>Building</category>
@@ -20,10 +20,10 @@
 	<!-- ========================= Work tables ==========================-->
 
 	<ThingDef ParentName="BuildingBase">
-		<DefName>Table_MK1_Replicator</DefName>
-		<Label>Mark 1 Matter Replicator</Label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>An advanced matter replication device.</Description>
+		<defName>Table_MK1_Replicator</defName>
+		<label>Mark 1 Matter Replicator</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>An advanced matter replication device.</description>
 		<graphicData>
 			<texPath>Things/Items/MK1Replicator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -37,10 +37,10 @@
 			<Steel>100</Steel>
 			<Silver>50</Silver>
 		</costList>
-		<AltitudeLayer>Building</AltitudeLayer>
-		<Size>(3,1)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>Impassable</Passability>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
@@ -76,10 +76,10 @@
 
 
 	<ThingDef ParentName="BuildingBase">
-		<DefName>Table_MK2_Replicator</DefName>
-		<Label>Mark 2 Matter Replicator</Label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>An advanced matter replication device.</Description>
+		<defName>Table_MK2_Replicator</defName>
+		<label>Mark 2 Matter Replicator</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>An advanced matter replication device.</description>
 		<graphicData>
 			<texPath>Things/Items/MK2Replicator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -93,10 +93,10 @@
 			<Steel>200</Steel>
 			<Silver>100</Silver>
 		</costList>
-		<AltitudeLayer>Building</AltitudeLayer>
-		<Size>(3,1)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>Impassable</Passability>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
@@ -128,10 +128,10 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
-		<DefName>Table_MK3_Replicator</DefName>
-		<Label>Mark 3 Matter Replicator</Label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>An advanced matter replication device.</Description>
+		<defName>Table_MK3_Replicator</defName>
+		<label>Mark 3 Matter Replicator</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>An advanced matter replication device.</description>
 		<graphicData>
 			<texPath>Things/Items/MK3Replicator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -145,10 +145,10 @@
 			<Steel>200</Steel>
 			<Silver>400</Silver>
 		</costList>
-		<AltitudeLayer>Building</AltitudeLayer>
-		<Size>(3,1)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>Impassable</Passability>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
@@ -181,4 +181,4 @@
 		</building>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>
