@@ -25,7 +25,7 @@ MK2:
 30 OmniGel -> 3 Gold
 
 MK3:
-60 OmniGel -> 4 plasteel
+60 OmniGel -> 4 Plasteel
 60 OmniGel -> 10 Uranium
 50 OmniGel -> 10 Jade
 
@@ -48,3 +48,6 @@ MK3:
 
 0.17.0
 * Alpha 17 Update
+
+0.18.0.0
+* Alpha 18 Update
