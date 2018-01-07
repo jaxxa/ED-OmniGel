@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-OmniGel</name>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>0.18.0</targetVersion>
 	<author>Jaxxa</author>
-	<url>https://ludeon.com/forums/index.php?topic=18995.0</url>
-	<description>Version: 0.17.0
+	<url>https://ludeon.com/forums/index.php?topic=37158</url>
+	<description>Version: 0.18.0.0
+Discussion, Non Steam Downloads and Source of this mod is available at: https://ludeon.com/forums/index.php?topic=37158
 
-Adds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal
+Adds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal.
 
 Recipes:
 
@@ -22,7 +23,7 @@ MK2:
 30 OmniGel -> 3 Gold
 
 MK3:
-60 OmniGel -> 4 plasteel
+60 OmniGel -> 4 Plasteel
 60 OmniGel -> 10 Uranium
 50 OmniGel -> 10 Jade
 

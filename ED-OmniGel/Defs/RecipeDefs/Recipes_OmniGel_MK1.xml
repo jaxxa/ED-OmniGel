@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<!-- Replicate Slag -->
 	<RecipeDef>
@@ -188,4 +188,4 @@
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>
