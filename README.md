@@ -51,3 +51,7 @@ MK3:
 
 0.18.0.0
 * Alpha 18 Update
+
+0.18.0.1
+* Replicators no longer transmitsPower.
+* Moving Research to a New Tab
