@@ -2,15 +2,12 @@
 <Defs>
 
 	<!-- Replicate Plasteel -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK3_PlasteelFromOmniGel</defName>
 		<label>Replicate Plasteel from Omni-Gel</label>
 		<description>Replicates Plasteel from Omni-Gel.</description>
 		<jobString>Creating Plasteel from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -24,24 +21,15 @@
 		<products>
 			<Plasteel>3</Plasteel>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<!-- Replicate Uranium -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK3_UraniumFromOmniGel</defName>
 		<label>Replicate Uranium from Omni-Gel</label>
 		<description>Replicates Uranium from Omni-Gel.</description>
 		<jobString>Creating Uranium from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -55,24 +43,14 @@
 		<products>
 			<Uranium>10</Uranium>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-
-
-	<RecipeDef>
+	
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK3_JadeFromOmniGel</defName>
 		<label>Replicate Jade from Omni-Gel</label>
 		<description>Replicates Jade from Omni-Gel.</description>
 		<jobString>Creating Jade from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -86,25 +64,17 @@
 		<products>
 			<Jade>10</Jade>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	
 	<!-- Replicate Medicine -->
-	<RecipeDef>
+	
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK3_MedicineFromOmniGel</defName>
 		<label>Replicate Medicine from Omni-Gel</label>
 		<description>Replicates Medicine from Omni-Gel.</description>
 		<jobString>Creating Medicine from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -116,26 +86,18 @@
 			</li>
 		</ingredients>
 		<products>
-			<Medicine>2</Medicine>
+			<MedicineIndustrial>2</MedicineIndustrial>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 	
 	<!-- Replicate Glitter Medicine -->
-	<RecipeDef>
+	
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK3_GlitterMedicineFromOmniGel</defName>
 		<label>Upgrade to Glitter Medicine with Omni-Gel</label>
 		<description>Upgrades Medicine to Glitterworld Medicine with Omni-Gel.</description>
 		<jobString>Creating Glitterworld Medicine from Omni-Gel and Medicine.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -148,22 +110,21 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Medicine</li>
+						<li>MedicineIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
 			</li>
 		</ingredients>
 		<products>
-			<GlitterworldMedicine>1</GlitterworldMedicine>
+			<MedicineUltratech>1</MedicineUltratech>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Medicine</li>
+				<li>MedicineIndustrial</li>
 				<li>OmniGel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 </Defs>

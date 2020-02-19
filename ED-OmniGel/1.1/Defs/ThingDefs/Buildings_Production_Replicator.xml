@@ -1,21 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="BuildingBase" Abstract="True">
-		<category>Building</category>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-		<selectable>true</selectable>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<repairEffect>Repair</repairEffect>
-		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<MaxHitPoints>350</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
-	</ThingDef>
 
 	<!-- ========================= Work tables ==========================-->
 
@@ -33,7 +18,7 @@
 			<li>Research_MK1_Replicator</li>
 		</researchPrerequisites>
 		<costList>
-			<Component>2</Component>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<Steel>100</Steel>
 			<Silver>50</Silver>
 		</costList>
@@ -89,9 +74,9 @@
 			<li>Research_MK2_Replicator</li>
 		</researchPrerequisites>
 		<costList>
-			<Component>4</Component>
+			<ComponentIndustrial>6</ComponentIndustrial>
 			<Steel>200</Steel>
-			<Silver>100</Silver>
+			<Silver>200</Silver>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<size>(3,1)</size>
@@ -141,7 +126,8 @@
 			<li>Research_MK3_Replicator</li>
 		</researchPrerequisites>
 		<costList>
-			<Component>4</Component>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
 			<Steel>200</Steel>
 			<Silver>400</Silver>
 		</costList>

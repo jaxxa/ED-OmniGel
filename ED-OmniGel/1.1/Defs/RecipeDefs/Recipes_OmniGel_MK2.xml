@@ -2,15 +2,12 @@
 <Defs>
 
 	<!-- Replicate Steel -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK2_SteelFromOmniGel</defName>
 		<label>Replicate Steel from Omni-Gel</label>
 		<description>Replicates Steel from Omni-Gel.</description>
 		<jobString>Creating Steel from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -24,25 +21,16 @@
 		<products>
 			<Steel>20</Steel>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	
 	<!-- Replicate Silver -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK2_SilverFromOmniGel</defName>
 		<label>Replicate Silver from Omni-Gel</label>
 		<description>Replicates Silver from Omni-Gel.</description>
 		<jobString>Creating Silver from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -56,25 +44,16 @@
 		<products>
 			<Silver>30</Silver>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	
 	<!-- Replicate Gold -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelBase">
 		<defName>Replicate_MK2_GoldFromOmniGel</defName>
 		<label>Replicate Gold from Omni-Gel</label>
 		<description>Replicates Gold from Omni-Gel.</description>
 		<jobString>Creating Gold from Omni-Gel.</jobString>
 		<workAmount>500</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -88,12 +67,6 @@
 		<products>
 			<Gold>3</Gold>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 </Defs>
