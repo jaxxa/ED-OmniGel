@@ -1,13 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<RecipeDef Name="MakeFromOmniGelMK3Recipe" ParentName="MakeFromOmniGelBase" Abstract="True" >
+	  <recipeUsers>
+        <li>Table_MK3_Replicator</li>
+      </recipeUsers>
+		<workAmount>500</workAmount>
+	</RecipeDef>
+
+
 	<!-- Replicate Plasteel -->
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
 		<defName>Replicate_MK3_PlasteelFromOmniGel</defName>
 		<label>Replicate Plasteel from Omni-Gel</label>
 		<description>Replicates Plasteel from Omni-Gel.</description>
 		<jobString>Creating Plasteel from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -24,12 +31,11 @@
 	</RecipeDef>
 
 	<!-- Replicate Uranium -->
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
 		<defName>Replicate_MK3_UraniumFromOmniGel</defName>
 		<label>Replicate Uranium from Omni-Gel</label>
 		<description>Replicates Uranium from Omni-Gel.</description>
 		<jobString>Creating Uranium from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -45,12 +51,11 @@
 		</products>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
 		<defName>Replicate_MK3_JadeFromOmniGel</defName>
 		<label>Replicate Jade from Omni-Gel</label>
 		<description>Replicates Jade from Omni-Gel.</description>
 		<jobString>Creating Jade from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -69,12 +74,11 @@
 	
 	<!-- Replicate Medicine -->
 	
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
 		<defName>Replicate_MK3_MedicineFromOmniGel</defName>
 		<label>Replicate Medicine from Omni-Gel</label>
 		<description>Replicates Medicine from Omni-Gel.</description>
 		<jobString>Creating Medicine from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -92,12 +96,11 @@
 	
 	<!-- Replicate Glitter Medicine -->
 	
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
 		<defName>Replicate_MK3_GlitterMedicineFromOmniGel</defName>
 		<label>Upgrade to Glitter Medicine with Omni-Gel</label>
 		<description>Upgrades Medicine to Glitterworld Medicine with Omni-Gel.</description>
 		<jobString>Creating Glitterworld Medicine from Omni-Gel and Medicine.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>

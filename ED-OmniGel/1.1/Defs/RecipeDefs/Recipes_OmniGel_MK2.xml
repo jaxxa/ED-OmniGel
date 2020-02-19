@@ -1,13 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<RecipeDef Name="MakeFromOmniGelMK2Recipe" ParentName="MakeFromOmniGelBase" Abstract="True" >
+	  <recipeUsers>
+        <li>Table_MK2_Replicator</li>
+      </recipeUsers>
+		<workAmount>500</workAmount>
+	</RecipeDef>
+
+
 	<!-- Replicate Steel -->
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
 		<defName>Replicate_MK2_SteelFromOmniGel</defName>
 		<label>Replicate Steel from Omni-Gel</label>
 		<description>Replicates Steel from Omni-Gel.</description>
 		<jobString>Creating Steel from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -25,12 +32,11 @@
 
 	
 	<!-- Replicate Silver -->
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
 		<defName>Replicate_MK2_SilverFromOmniGel</defName>
 		<label>Replicate Silver from Omni-Gel</label>
 		<description>Replicates Silver from Omni-Gel.</description>
 		<jobString>Creating Silver from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -48,12 +54,11 @@
 
 	
 	<!-- Replicate Gold -->
-	<RecipeDef ParentName="MakeFromOmniGelBase">
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
 		<defName>Replicate_MK2_GoldFromOmniGel</defName>
 		<label>Replicate Gold from Omni-Gel</label>
 		<description>Replicates Gold from Omni-Gel.</description>
 		<jobString>Creating Gold from Omni-Gel.</jobString>
-		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
