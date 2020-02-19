@@ -24,6 +24,14 @@
 				</filter>
 				<count>10</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<products>
 			<ChunkSlagSteel>1</ChunkSlagSteel>
@@ -41,6 +49,14 @@
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -67,6 +83,14 @@
 				</filter>
 				<count>10</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<products>
 			<ChunkGranite>1</ChunkGranite>
@@ -84,6 +108,14 @@
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -109,6 +141,14 @@
 				</filter>
 				<count>10</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<products>
 			<ChunkSlate>1</ChunkSlate>
@@ -126,6 +166,14 @@
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>

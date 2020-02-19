@@ -24,6 +24,14 @@
 				</filter>
 				<count>40</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 		</ingredients>
 		<products>
 			<Steel>20</Steel>
@@ -46,6 +54,14 @@
 				</filter>
 				<count>40</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 		</ingredients>
 		<products>
 			<Silver>30</Silver>
@@ -64,6 +80,14 @@
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>

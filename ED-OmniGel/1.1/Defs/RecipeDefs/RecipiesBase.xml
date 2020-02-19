@@ -8,6 +8,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>OmniGel</li>
+				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>

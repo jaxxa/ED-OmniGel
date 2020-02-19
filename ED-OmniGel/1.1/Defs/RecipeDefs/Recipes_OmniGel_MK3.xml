@@ -24,6 +24,14 @@
 				</filter>
 				<count>60</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
 		</ingredients>
 		<products>
 			<Plasteel>3</Plasteel>
@@ -45,6 +53,14 @@
 				</filter>
 				<count>60</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
 		</ingredients>
 		<products>
 			<Uranium>10</Uranium>
@@ -61,6 +77,14 @@
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -88,6 +112,14 @@
 				</filter>
 				<count>40</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
 		</ingredients>
 		<products>
 			<MedicineIndustrial>2</MedicineIndustrial>
@@ -106,6 +138,14 @@
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>40</count>
