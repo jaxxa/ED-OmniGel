@@ -22,7 +22,7 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>60</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -30,12 +30,27 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>60</count>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<products>
-			<Plasteel>3</Plasteel>
-		</products>
+			<Plasteel>20</Plasteel>
+		</products>	
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>OmniGel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
 	</RecipeDef>
 
 	<!-- Replicate Uranium -->
@@ -51,65 +66,6 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>60</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chemfuel</li>
-					</thingDefs>
-				</filter>
-				<count>60</count>
-			</li>
-		</ingredients>
-		<products>
-			<Uranium>10</Uranium>
-		</products>
-	</RecipeDef>
-	
-	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
-		<defName>Replicate_MK3_JadeFromOmniGel</defName>
-		<label>Replicate Jade from Omni-Gel</label>
-		<description>Replicates Jade from Omni-Gel.</description>
-		<jobString>Creating Jade from Omni-Gel.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>OmniGel</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chemfuel</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
-		</ingredients>
-		<products>
-			<Jade>10</Jade>
-		</products>
-	</RecipeDef>
-
-	
-	<!-- Replicate Medicine -->
-	
-	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
-		<defName>Replicate_MK3_MedicineFromOmniGel</defName>
-		<label>Replicate Medicine from Omni-Gel</label>
-		<description>Replicates Medicine from Omni-Gel.</description>
-		<jobString>Creating Medicine from Omni-Gel.</jobString>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>OmniGel</li>
-					</thingDefs>
-				</filter>
 				<count>40</count>
 			</li>
 			<li>
@@ -122,9 +78,10 @@
 			</li>
 		</ingredients>
 		<products>
-			<MedicineIndustrial>2</MedicineIndustrial>
+			<Uranium>15</Uranium>
 		</products>
 	</RecipeDef>
+	
 	
 	<!-- Replicate Glitter Medicine -->
 	
@@ -166,8 +123,54 @@
 			<thingDefs>
 				<li>MedicineIndustrial</li>
 				<li>OmniGel</li>
+				<li>Chemfuel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
+
+	
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
+		<defName>Replicate_MK3_DevilstrandFromOmniGel</defName>
+		<label>Upgrade to Devilstrand to Hyperweave with Omni-Gel</label>
+		<description>Upgrades Devilstrand to Hyperweave with Omni-Gel.</description>
+		<jobString>Creating Hyperweave from Omni-Gel and Devilstrand.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Hyperweave>1</Hyperweave>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DevilstrandCloth</li>
+				<li>Chemfuel</li>
+				<li>OmniGel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
 
 </Defs>

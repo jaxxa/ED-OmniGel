@@ -34,7 +34,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Steel>20</Steel>
+			<Steel>40</Steel>
 		</products>
 	</RecipeDef>
 
@@ -64,7 +64,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Silver>30</Silver>
+			<Silver>40</Silver>
 		</products>
 	</RecipeDef>
 
@@ -82,7 +82,7 @@
 						<li>OmniGel</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -90,11 +90,40 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<products>
-			<Gold>3</Gold>
+			<Gold>10</Gold>
+		</products>
+	</RecipeDef>
+	
+	<!-- Replicate Gold -->
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
+		<defName>Replicate_MK2_NeutroamineFromOmniGel</defName>
+		<label>Replicate Neutroamine from Omni-Gel</label>
+		<description>Replicates Neutroamine from Omni-Gel.</description>
+		<jobString>Creating Neutroamine from Omni-Gel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Neutroamine>20</Neutroamine>
 		</products>
 	</RecipeDef>
 
