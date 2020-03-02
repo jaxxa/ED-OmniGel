@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-OmniGel</name>
-	<packageId>Jaxxa.ED.OmniGel</packageId>
+	<packageId>Jaxxa.EnhancedDevelopment.OmniGel</packageId>
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>

@@ -6,6 +6,9 @@
         <li>Table_MK3_Replicator</li>
       </recipeUsers>
 		<workAmount>500</workAmount>
+		<researchPrerequisites>
+			<li>Research_MK3_Replicator</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 

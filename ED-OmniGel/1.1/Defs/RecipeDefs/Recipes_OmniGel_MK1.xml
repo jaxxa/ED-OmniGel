@@ -6,6 +6,9 @@
         <li>Table_MK1_Replicator</li>
       </recipeUsers>
 		<workAmount>200</workAmount>
+		<researchPrerequisites>
+			<li>Research_MK1_Replicator</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 

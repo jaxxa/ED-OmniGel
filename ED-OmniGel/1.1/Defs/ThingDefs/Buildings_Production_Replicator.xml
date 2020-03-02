@@ -8,7 +8,7 @@
 		<defName>Table_MK1_Replicator</defName>
 		<label>Mark 1 Matter Replicator</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>An advanced matter replication device.</description>
+		<description>An advanced matter replication device. Allows the production of Rock and Slag Chunks.</description>
 		<graphicData>
 			<texPath>Things/Items/MK1Replicator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -56,7 +56,7 @@
 		<defName>Table_MK2_Replicator</defName>
 		<label>Mark 2 Matter Replicator</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>An advanced matter replication device.</description>
+		<description>An advanced matter replication device. Allows the production of Steel, Silver, Neutroamine and Gold.</description>
 		<graphicData>
 			<texPath>Things/Items/MK2Replicator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -103,7 +103,7 @@
 		<defName>Table_MK3_Replicator</defName>
 		<label>Mark 3 Matter Replicator</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>An advanced matter replication device.</description>
+		<description>An advanced matter replication device. Allows the production of Uranium, Plasteel, Glitterworld Medicine and Hyperweave.</description>
 		<graphicData>
 			<texPath>Things/Items/MK3Replicator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
