@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="MakeFromOmniGelMK3Recipe" ParentName="MakeFromOmniGelBase" Abstract="True" >
+	  <recipeUsers>
+        <li>Table_MK3_Replicator</li>
+      </recipeUsers>
+		<workAmount>500</workAmount>
+		<researchPrerequisites>
+			<li>Research_MK3_Replicator</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+
+	<!-- Replicate Plasteel -->
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
+		<defName>Replicate_MK3_PlasteelFromOmniGel</defName>
+		<label>Replicate Plasteel from Omni-Gel</label>
+		<description>Replicates Plasteel from Omni-Gel.</description>
+		<jobString>Creating Plasteel from Omni-Gel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Plasteel>20</Plasteel>
+		</products>	
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Chemfuel</li>
+				<li>OmniGel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!-- Replicate Uranium -->
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
+		<defName>Replicate_MK3_UraniumFromOmniGel</defName>
+		<label>Replicate Uranium from Omni-Gel</label>
+		<description>Replicates Uranium from Omni-Gel.</description>
+		<jobString>Creating Uranium from Omni-Gel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Uranium>15</Uranium>
+		</products>
+	</RecipeDef>
+	
+	
+	<!-- Replicate Glitter Medicine -->
+	
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
+		<defName>Replicate_MK3_GlitterMedicineFromOmniGel</defName>
+		<label>Upgrade to Glitter Medicine with Omni-Gel</label>
+		<description>Upgrades Medicine to Glitterworld Medicine with Omni-Gel.</description>
+		<jobString>Creating Glitterworld Medicine from Omni-Gel and Medicine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<MedicineUltratech>1</MedicineUltratech>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineIndustrial</li>
+				<li>OmniGel</li>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	
+	<RecipeDef ParentName="MakeFromOmniGelMK3Recipe">
+		<defName>Replicate_MK3_DevilstrandFromOmniGel</defName>
+		<label>Upgrade to Devilstrand to Hyperweave with Omni-Gel</label>
+		<description>Upgrades Devilstrand to Hyperweave with Omni-Gel.</description>
+		<jobString>Creating Hyperweave from Omni-Gel and Devilstrand.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Hyperweave>1</Hyperweave>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DevilstrandCloth</li>
+				<li>Chemfuel</li>
+				<li>OmniGel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+
+</Defs>

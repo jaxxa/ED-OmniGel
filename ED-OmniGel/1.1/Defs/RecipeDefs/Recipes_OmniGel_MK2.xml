@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="MakeFromOmniGelMK2Recipe" ParentName="MakeFromOmniGelBase" Abstract="True" >
+	  <recipeUsers>
+        <li>Table_MK2_Replicator</li>
+      </recipeUsers>
+		<workAmount>500</workAmount>
+		<researchPrerequisites>
+			<li>Research_MK2_Replicator</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+
+	<!-- Replicate Steel -->
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
+		<defName>Replicate_MK2_SteelFromOmniGel</defName>
+		<label>Replicate Steel from Omni-Gel</label>
+		<description>Replicates Steel from Omni-Gel.</description>
+		<jobString>Creating Steel from Omni-Gel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Steel>40</Steel>
+		</products>
+	</RecipeDef>
+
+	
+	<!-- Replicate Silver -->
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
+		<defName>Replicate_MK2_SilverFromOmniGel</defName>
+		<label>Replicate Silver from Omni-Gel</label>
+		<description>Replicates Silver from Omni-Gel.</description>
+		<jobString>Creating Silver from Omni-Gel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Silver>40</Silver>
+		</products>
+	</RecipeDef>
+
+	
+	<!-- Replicate Gold -->
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
+		<defName>Replicate_MK2_GoldFromOmniGel</defName>
+		<label>Replicate Gold from Omni-Gel</label>
+		<description>Replicates Gold from Omni-Gel.</description>
+		<jobString>Creating Gold from Omni-Gel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gold>10</Gold>
+		</products>
+	</RecipeDef>
+	
+	<!-- Replicate Gold -->
+	<RecipeDef ParentName="MakeFromOmniGelMK2Recipe">
+		<defName>Replicate_MK2_NeutroamineFromOmniGel</defName>
+		<label>Replicate Neutroamine from Omni-Gel</label>
+		<description>Replicates Neutroamine from Omni-Gel.</description>
+		<jobString>Creating Neutroamine from Omni-Gel.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Neutroamine>20</Neutroamine>
+		</products>
+	</RecipeDef>
+
+</Defs>

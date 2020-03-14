@@ -1,21 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<RecipeDef Name="MakeFromOmniGelMK1Recipe" ParentName="MakeFromOmniGelBase" Abstract="True" >
+	  <recipeUsers>
+        <li>Table_MK1_Replicator</li>
+      </recipeUsers>
+		<workAmount>200</workAmount>
+	</RecipeDef>
+
+
 	<!-- Replicate Slag -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelMK1Recipe">
 		<defName>Replicate_MK1_SlagFromOmniGel</defName>
 		<label>Replicate Slag from Omni-Gel</label>
 		<description>Replicates slag debris from Omni-Gel.</description>
 		<jobString>Creating slag from Omni-Gel.</jobString>
-		<workAmount>200</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -24,29 +36,27 @@
 		<products>
 			<ChunkSlagSteel>1</ChunkSlagSteel>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<!-- Replicate ChunkSandstone -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelMK1Recipe">
 		<defName>Replicate_MK1_ChunkSandstoneFromOmniGel</defName>
 		<label>Replicate Sandstone Chunk from Omni-Gel</label>
 		<description>Replicates Sandstone Chunk from Omni-Gel.</description>
 		<jobString>Creating Sandstone Chunk from Omni-Gel.</jobString>
-		<workAmount>200</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -55,30 +65,28 @@
 		<products>
 			<ChunkSandstone>1</ChunkSandstone>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 
 	<!-- Replicate ChunkGranite -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelMK1Recipe">
 		<defName>Replicate_MK1_ChunkGraniteFromOmniGel</defName>
 		<label>Replicate Granite Chunk from Omni-Gel</label>
 		<description>Replicates Granite Chunk from Omni-Gel.</description>
 		<jobString>Creating Granite Chunk from Omni-Gel.</jobString>
-		<workAmount>200</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -87,29 +95,27 @@
 		<products>
 			<ChunkGranite>1</ChunkGranite>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<!-- Replicate ChunkLimestone -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelMK1Recipe">
 		<defName>Replicate_MK1_ChunkLimestoneFromOmniGel</defName>
 		<label>Replicate Limestone Chunk from Omni-Gel</label>
 		<description>Replicates Limestone Chunk from Omni-Gel.</description>
 		<jobString>Creating Limestone Chunk from Omni-Gel.</jobString>
-		<workAmount>200</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -118,29 +124,27 @@
 		<products>
 			<ChunkLimestone>1</ChunkLimestone>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<!-- Replicate ChunkSlate -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelMK1Recipe">
 		<defName>Replicate_MK1_ChunkSlateFromOmniGel</defName>
 		<label>Replicate Slate Chunk from Omni-Gel</label>
 		<description>Replicates Slate Chunk from Omni-Gel.</description>
 		<jobString>Creating Slate Chunk from Omni-Gel.</jobString>
-		<workAmount>200</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
 						<li>OmniGel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -149,24 +153,14 @@
 		<products>
 			<ChunkSlate>1</ChunkSlate>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 	<!-- Replicate ChunkMarble -->
-	<RecipeDef>
+	<RecipeDef ParentName="MakeFromOmniGelMK1Recipe">
 		<defName>Replicate_MK1_ChunkMarbleFromOmniGel</defName>
 		<label>Replicate Marble Chunk from Omni-Gel</label>
 		<description>Replicates Marble Chunk from Omni-Gel.</description>
 		<jobString>Creating Marble Chunk from Omni-Gel.</jobString>
-		<workAmount>200</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<ingredients>
 			<li>
 				<filter>
@@ -176,16 +170,18 @@
 				</filter>
 				<count>10</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<products>
 			<ChunkMarble>1</ChunkMarble>
 		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>OmniGel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
 </Defs>

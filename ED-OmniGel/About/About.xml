@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-OmniGel</name>
-	<targetVersion>0.18.0</targetVersion>
+	<packageId>Jaxxa.EnhancedDevelopment.OmniGel</packageId>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
 	<author>Jaxxa</author>
 	<url>https://ludeon.com/forums/index.php?topic=37158</url>
-	<description>Version: 0.18.0.1
+	<description>Version: 2.0.0.0
 Discussion, Non Steam Downloads and Source of this mod is available at: https://ludeon.com/forums/index.php?topic=37158
 
 Adds Omnigel into the game. Allows you to grow a new resource and refine it into resources such as stone or metal.
@@ -14,22 +18,20 @@ Recipes:
 The following are the resources that are available from the various levels of the replicator.
 
 MK1:
-10 OmniGel -> 1 ChunkSlag
-10 OmniGel -> 1 ChunkRock 
+10 OmniGel + 10 Chemfuel -> 1 ChunkSlag
+10 OmniGel + 10 Chemfuel -> 1 ChunkRock 
 
 MK2:
-40 OmniGel -> 20 Steel
-40 OmniGel -> 30 Silver
-30 OmniGel -> 3 Gold
+40 OmniGel + 40 Chemfuel -> 40 Steel
+40 OmniGel + 40 Chemfuel -> 40 Silver
+40 OmniGel + 40 Chemfuel -> 20 Neutroamine
+40 OmniGel + 40 Chemfuel -> 10 Gold
 
 MK3:
-60 OmniGel -> 4 Plasteel
-60 OmniGel -> 10 Uranium
-50 OmniGel -> 10 Jade
-
-40 OmniGel -> 2 Medicine
-40 OmniGel + 4 Medicine -> 1 GlitterworldMedicine
-
+40 OmniGel + 40 Chemfuel -> 15 Uranium
+40 OmniGel + 40 Chemfuel + 20 Steel -> 20 Plasteel
+40 OmniGel + 40 Chemfuel + 4 Medicine -> 1 GlitterworldMedicine
+40 OmniGel + 40 Chemfuel + 20 Devilstrand -> 20 Hyperweave
 
 	</description>
 </ModMetaData>
