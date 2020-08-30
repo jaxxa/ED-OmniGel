@@ -55,3 +55,7 @@ MK3:
 0.18.0.1
 * Replicators no longer transmitsPower.
 * Moving Research to a New Tab
+
+2.0.0.0
+* Update for 1.0 and 1.1
+* OmniGel Recipies now require Chemfuel

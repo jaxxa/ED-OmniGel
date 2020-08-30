@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- =========== bases =========== -->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>OmniGel</defName>
+		<label>Omni Gel</label>
+		<description>For refining into things.</description>
+		<graphicData>
+			<texPath>Things/Items/PurpleBucket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>500</stackLimit>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+		<statBases>
+			<Mass>0.008</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>
